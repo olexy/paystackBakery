@@ -19,34 +19,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
-<?php
-	$serveraddress = "us-cdbr-iron-east-03.cleardb.net";
-	$username = "bdcf9ef79b797a";
-	$password = "e7fc13ee";
-	$db = "heroku_68c24ad1a816a43";
-	$name = '';
-	$desc = '';
-	$account = '';
-  $bankcode = '';
-?>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>Create A New Recipient</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-      <form name="createRe" onsubmit="return validateField()" method="POST">			
+			<form  action="/store/recipent" name="createRe" onsubmit="return validateField()" method="POST">
+			{{ csrf_field() }}			
 			<table>
 			<tr>
 				<td colspan=2 align=center><a href="/validate" target="_blank">Click here to verify account name</a></td>
 			</tr>
 			<tr>
-				<td>Full Name : </td> <td><input type="text" value="<?php echo $name; ?>" name="txtname" required></td>
+				<td>Full Name : </td> <td><input type="text" value="" name="txtname" required></td>
 			</tr>
 			<tr>
-				<td>Description : </td><td><input type="text" value="<?php echo $desc; ?>" name="txtdesc" required></td>
+				<td>Description : </td><td><input type="text" value="" name="txtdesc" required></td>
 			</tr>
 			<tr>
-				<td>Account Number : </td><td><input type="text" value="<?php echo $account; ?>" name="txtaccount" required></td>
+				<td>Account Number : </td><td><input type="text" value="" name="txtaccount" required></td>
 			</tr>
 			<tr>
 				<td>Bank Name : </td><td><select name="bankname">

@@ -19,22 +19,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
-<?php
-	$serveraddress = "us-cdbr-iron-east-03.cleardb.net";
-	$username = "bdcf9ef79b797a";
-	$password = "e7fc13ee";
-	$db = "heroku_68c24ad1a816a43";
-	$name = '';
-	$desc = '';
-	$account = '';
-  $bankcode = '';
-?>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>Verify Account Number</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-            <form name="createRe" onsubmit="return validateField()" method="POST">			
+						<form action="/validate/account" name="createRe" onsubmit="return validateField()" method="POST">
+						{{ csrf_field() }}			
 			<table cellspacing=5 cellpadding=5>
 			<tr>
 				<td>Account Number : </td><td><input type="text" placeholder="e.g 0230034000" name="txtaccount" required></td>
