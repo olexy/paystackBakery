@@ -8,6 +8,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>Transfer To A Recipient</title>
+<style>
+	input, select {font-size: 1.2em;width:100%}
+	</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -20,25 +23,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <?php
-	$serveraddress = "us-cdbr-iron-east-03.cleardb.net";
-	$username = "bdcf9ef79b797a";
-	$password = "e7fc13ee";
-	$db = "heroku_68c24ad1a816a43";
-	$name = '';
-	$desc = '';
-	$account = '';
-  $bankcode = '';
 ?>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>Transfer To A Recipient</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-	<form name="trans" method="POST">
-	
+	<form action="/recipient/transfer" name="trans" method="POST">
+	{{ csrf_field() }}
 	<table>
 		<tr>
 			<td> Select Transfer Recipient</td> <td><select name="recTran">
+
+				@foreach($recipients as $recipient)
+				<option value="{{$recipient->recipientCode}}"> {{$recipient->fullname}}</option>
+		
+				@endforeach
 				</select>
 			</td>
 		</tr>

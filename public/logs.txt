@@ -1,0 +1,31 @@
+{
+  "status": false,
+  "message": "Recipient specified is invalid"
+}
+{
+  "status": false,
+  "message": "Recipient specified is invalid"
+}
+{
+  "status": false,
+  "message": "Recipient specified is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "do8mzmsgqk",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_7otlbsiatx1zbvr",
+    "id": 4210687,
+    "createdAt": "2019-03-12T12:35:42.499Z",
+    "updatedAt": "2019-03-12T12:35:42.499Z"
+  }
+}

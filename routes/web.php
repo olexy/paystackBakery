@@ -15,25 +15,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/add', [
-    'uses' => 'PagesController@add'
-]);
+Route::get('/add', 'PagesController@add');
 
 // processing form to add recipient
 Route::post('/store/recipent', [
     'uses' => 'TransfersController@store'
 ]);
 
-Route::get('/validate', [
-    'uses' => 'PagesController@check'
-]);
+Route::get('/validate', 'PagesController@check');
 
 // processing form to validate account number
 Route::post('/validate/account', [
     'uses' => 'TransfersController@checkAccount'
 ]);
 
-Route::get('/transfer', [
-    'uses' => 'PagesController@transfer'
-]);
+Route::get('/transfer', 'PagesController@transfer');
 
+// processing form to transfer
+Route::post('/recipient/transfer', [
+    'uses' => 'TransfersController@transfer'
+]);

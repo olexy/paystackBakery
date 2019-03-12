@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Transfer;
+
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -19,7 +21,8 @@ class PagesController extends Controller
 
     public function transfer()
     {
-        return view('transfer');
+        $recipients = Transfer::all();
+        return view('transfer')->with('recipients', $recipients);
     }
 
 }
