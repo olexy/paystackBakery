@@ -1754,3 +1754,45 @@
   "status": false,
   "message": "Transfer code is invalid"
 }
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "8co3081bi0",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_s2phrflsa6isj8p",
+    "id": 4290133,
+    "createdAt": "2019-03-15T14:45:37.611Z",
+    "updatedAt": "2019-03-15T14:45:37.611Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer has been queued",
+  "data": {
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "reference": "8co3081bi0",
+    "source": "balance",
+    "source_details": null,
+    "reason": "gift card",
+    "status": "success",
+    "failures": null,
+    "transfer_code": "TRF_s2phrflsa6isj8p",
+    "titan_code": null,
+    "transferred_at": null,
+    "id": 4290133,
+    "integration": 337150,
+    "recipient": 1243048,
+    "createdAt": "2019-03-15T14:45:37.000Z",
+    "updatedAt": "2019-03-15T14:46:05.000Z"
+  }
+}

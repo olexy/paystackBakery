@@ -162,7 +162,7 @@ class TransfersController extends Controller
         CURLOPT_TIMEOUT => 30,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "POST",
-        CURLOPT_POSTFIELDS => "{\"transfer_code\": \" $request->txt_transfercode\", \"otp\": \"$request->txtotp\"}",
+        CURLOPT_POSTFIELDS => "{\"transfer_code\": \"$request->txt_transfercode\", \"otp\": \"$request->txtotp\"}",
         CURLOPT_HTTPHEADER => array(
           "Authorization: Bearer sk_test_36e175c5c710aacac84e2a3974988707c0834e7d",
           "Cache-Control: no-cache",
@@ -180,8 +180,8 @@ class TransfersController extends Controller
         $myfile = file_put_contents('logs.txt', $response.PHP_EOL , FILE_APPEND | LOCK_EX);
         $ans = json_decode($response);
         $message = $ans->message;
-        // $transferCode = $ans->data->transfer_code;
-        echo "<span style='color:blue;font-size:1.2em;'><b>$message with code </b></span>";
+        $transferCode = $ans->data->transfer_code;
+        echo "<span style='color:blue;font-size:1.2em;'><b>$message with code $transferCode</b></span>";
 			}
     }
 
