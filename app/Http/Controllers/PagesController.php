@@ -25,4 +25,9 @@ class PagesController extends Controller
         return view('transfer')->with('recipients', $recipients);
     }
 
+    public function otp()
+    {
+        return view('otp');
+    }
+
 }

@@ -29,3 +29,1728 @@
     "updatedAt": "2019-03-12T12:35:42.499Z"
   }
 }
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "novjfg1799",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_qcruzjstnha1z7d",
+    "id": 4240910,
+    "createdAt": "2019-03-13T15:55:22.763Z",
+    "updatedAt": "2019-03-13T15:55:22.763Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "whjcg079c1",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_pqogst6au3047ds",
+    "id": 4240963,
+    "createdAt": "2019-03-13T15:57:18.030Z",
+    "updatedAt": "2019-03-13T15:57:18.030Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ahsodano2l",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_1sfrx1ytzsdnz52",
+    "id": 4241042,
+    "createdAt": "2019-03-13T16:00:49.810Z",
+    "updatedAt": "2019-03-13T16:00:49.810Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "p9m6lr1gnz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_rp1j2pc8j2nhsh3",
+    "id": 4241098,
+    "createdAt": "2019-03-13T16:03:54.396Z",
+    "updatedAt": "2019-03-13T16:03:54.396Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "wpp14w93jz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_x4quxop4tmrs2c0",
+    "id": 4241106,
+    "createdAt": "2019-03-13T16:04:15.619Z",
+    "updatedAt": "2019-03-13T16:04:15.619Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ftz0mgws4f",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_4kxz8508qidkzus",
+    "id": 4241492,
+    "createdAt": "2019-03-13T16:24:47.851Z",
+    "updatedAt": "2019-03-13T16:24:47.851Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "eups9760sc",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_4jg6se3upvsyyxs",
+    "id": 4257369,
+    "createdAt": "2019-03-14T08:49:47.812Z",
+    "updatedAt": "2019-03-14T08:49:47.812Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "p2leisoraz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_xtrupxscx29bnlk",
+    "id": 4257426,
+    "createdAt": "2019-03-14T08:52:44.467Z",
+    "updatedAt": "2019-03-14T08:52:44.467Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "v57bp74p55",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_guvqfqj7kam4oq3",
+    "id": 4258083,
+    "createdAt": "2019-03-14T09:29:46.860Z",
+    "updatedAt": "2019-03-14T09:29:46.860Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "e8m1of43r0",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_h1ohedtr1hvf04g",
+    "id": 4258174,
+    "createdAt": "2019-03-14T09:33:04.002Z",
+    "updatedAt": "2019-03-14T09:33:04.002Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "wun55oyl1c",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_5slkm59zkd1aold",
+    "id": 4258286,
+    "createdAt": "2019-03-14T09:40:01.953Z",
+    "updatedAt": "2019-03-14T09:40:01.953Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "dpy5jjtaml",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_ug0tu7zuy7s5yeh",
+    "id": 4258374,
+    "createdAt": "2019-03-14T09:46:18.897Z",
+    "updatedAt": "2019-03-14T09:46:18.897Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "5po5k02rxn",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_6i91e1zk7t723db",
+    "id": 4258434,
+    "createdAt": "2019-03-14T09:50:21.873Z",
+    "updatedAt": "2019-03-14T09:50:21.873Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "42c1zsb0lj",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_ldw86jz502i192s",
+    "id": 4258455,
+    "createdAt": "2019-03-14T09:51:53.371Z",
+    "updatedAt": "2019-03-14T09:51:53.371Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "hvcgmtm2dg",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_nrxu7s4w9q0x0sn",
+    "id": 4258467,
+    "createdAt": "2019-03-14T09:52:26.630Z",
+    "updatedAt": "2019-03-14T09:52:26.630Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "lr0k64upg5",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_jqztdikzcle9tbm",
+    "id": 4258992,
+    "createdAt": "2019-03-14T10:17:44.482Z",
+    "updatedAt": "2019-03-14T10:17:44.482Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "n1jbdb2v02",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_l3tduu34xu1un4g",
+    "id": 4259009,
+    "createdAt": "2019-03-14T10:18:45.662Z",
+    "updatedAt": "2019-03-14T10:18:45.662Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "4swky4e5pe",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_ehhanyt0sm2hmr8",
+    "id": 4259032,
+    "createdAt": "2019-03-14T10:20:11.334Z",
+    "updatedAt": "2019-03-14T10:20:11.334Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "y9yonpi2hx",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_5sk2gc59wakatr3",
+    "id": 4259185,
+    "createdAt": "2019-03-14T10:27:44.890Z",
+    "updatedAt": "2019-03-14T10:27:44.890Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "o41yvrvhsi",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_krj5vgzsgsjxeqt",
+    "id": 4259289,
+    "createdAt": "2019-03-14T10:32:26.935Z",
+    "updatedAt": "2019-03-14T10:32:26.935Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "slzoe069bi",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_rdnjryh2kgynae2",
+    "id": 4259301,
+    "createdAt": "2019-03-14T10:33:06.682Z",
+    "updatedAt": "2019-03-14T10:33:06.682Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "75v3lp1efy",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_wq5pqegqqbtp9py",
+    "id": 4259316,
+    "createdAt": "2019-03-14T10:34:10.242Z",
+    "updatedAt": "2019-03-14T10:34:10.242Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "xgdku5ncu2",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_f431d5u7nhsozua",
+    "id": 4259363,
+    "createdAt": "2019-03-14T10:36:10.153Z",
+    "updatedAt": "2019-03-14T10:36:10.153Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "p7pwbbjui4",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_rb1e6u2uivdaz58",
+    "id": 4259369,
+    "createdAt": "2019-03-14T10:36:23.673Z",
+    "updatedAt": "2019-03-14T10:36:23.673Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "2u9aac770e",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_mwvsvctmzt3w98l",
+    "id": 4259382,
+    "createdAt": "2019-03-14T10:37:11.201Z",
+    "updatedAt": "2019-03-14T10:37:11.201Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "7v5o5o3x8h",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_t59dsssh95nk0ue",
+    "id": 4259410,
+    "createdAt": "2019-03-14T10:38:52.309Z",
+    "updatedAt": "2019-03-14T10:38:52.309Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "iznoua80qe",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_71pw7q8o8qvljhf",
+    "id": 4260057,
+    "createdAt": "2019-03-14T11:14:35.934Z",
+    "updatedAt": "2019-03-14T11:14:35.934Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "j55hb9eqys",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_r1r6bwjqlf8yffx",
+    "id": 4260144,
+    "createdAt": "2019-03-14T11:18:19.771Z",
+    "updatedAt": "2019-03-14T11:18:19.771Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "c994tgy3mz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_hvkuqv8jw8v770j",
+    "id": 4260169,
+    "createdAt": "2019-03-14T11:19:27.750Z",
+    "updatedAt": "2019-03-14T11:19:27.750Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "eb08286oin",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_lm1os5hofzvdejj",
+    "id": 4260200,
+    "createdAt": "2019-03-14T11:21:16.074Z",
+    "updatedAt": "2019-03-14T11:21:16.074Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "7a6nrpj74b",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_y9mblia3678i3ms",
+    "id": 4260217,
+    "createdAt": "2019-03-14T11:21:51.641Z",
+    "updatedAt": "2019-03-14T11:21:51.641Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "r4hiwpclf2",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_8qf0h2ueulwx6j5",
+    "id": 4260237,
+    "createdAt": "2019-03-14T11:23:33.143Z",
+    "updatedAt": "2019-03-14T11:23:33.143Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "k394pgebnh",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_wnls3d3d5evyfsi",
+    "id": 4260241,
+    "createdAt": "2019-03-14T11:23:58.846Z",
+    "updatedAt": "2019-03-14T11:23:58.846Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "i1bkodyq0r",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_5gz33ubsxjjwjal",
+    "id": 4260248,
+    "createdAt": "2019-03-14T11:24:29.049Z",
+    "updatedAt": "2019-03-14T11:24:29.049Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "u2zaxnylmi",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_i6gy2mq282l986l",
+    "id": 4260262,
+    "createdAt": "2019-03-14T11:25:15.091Z",
+    "updatedAt": "2019-03-14T11:25:15.091Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "osdj0g44jj",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_0uq36nizakd970i",
+    "id": 4260413,
+    "createdAt": "2019-03-14T11:34:27.585Z",
+    "updatedAt": "2019-03-14T11:34:27.585Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "h3i3gqcxw9",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_v11gt7pynt8hy2x",
+    "id": 4260458,
+    "createdAt": "2019-03-14T11:38:00.939Z",
+    "updatedAt": "2019-03-14T11:38:00.939Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ym27wro00j",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_xkq4ow2cgla3zm2",
+    "id": 4260468,
+    "createdAt": "2019-03-14T11:38:45.978Z",
+    "updatedAt": "2019-03-14T11:38:45.978Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "6816dwsgg8",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_pf6lc4z6g23s8mw",
+    "id": 4260509,
+    "createdAt": "2019-03-14T11:41:33.909Z",
+    "updatedAt": "2019-03-14T11:41:33.909Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ypgmpei4eb",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_ok96o6lpd4101ng",
+    "id": 4260622,
+    "createdAt": "2019-03-14T11:48:36.243Z",
+    "updatedAt": "2019-03-14T11:48:36.243Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "lrwlj10lge",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_4rdhsmharhuikrq",
+    "id": 4260629,
+    "createdAt": "2019-03-14T11:49:04.014Z",
+    "updatedAt": "2019-03-14T11:49:04.014Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "xyz2whzgn5",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_bztgt98dvpo7ifu",
+    "id": 4260638,
+    "createdAt": "2019-03-14T11:49:42.237Z",
+    "updatedAt": "2019-03-14T11:49:42.237Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "j00bjl1007",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_jy774mekdc0nu0a",
+    "id": 4260643,
+    "createdAt": "2019-03-14T11:49:54.875Z",
+    "updatedAt": "2019-03-14T11:49:54.875Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "m895r6k485",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_m1c42qcb3rfybz0",
+    "id": 4260669,
+    "createdAt": "2019-03-14T11:50:58.239Z",
+    "updatedAt": "2019-03-14T11:50:58.239Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "6bn3gvvhr4",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_olzj2kv2rlb4snf",
+    "id": 4261176,
+    "createdAt": "2019-03-14T12:18:11.505Z",
+    "updatedAt": "2019-03-14T12:18:11.505Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "bau12x14jn",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_j5mvq7nz4f52fj5",
+    "id": 4261222,
+    "createdAt": "2019-03-14T12:21:06.356Z",
+    "updatedAt": "2019-03-14T12:21:06.356Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+
+=====================
+
+
+
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "hzfm3lc7wj",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_sfwqcf98t1l9x56",
+    "id": 4261995,
+    "createdAt": "2019-03-14T12:58:26.159Z",
+    "updatedAt": "2019-03-14T12:58:26.159Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "0wohy4nt2y",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_q6b2u44gbn3iyln",
+    "id": 4262232,
+    "createdAt": "2019-03-14T13:07:36.529Z",
+    "updatedAt": "2019-03-14T13:07:36.529Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ve7po6sqpu",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_c45pwohfzw35snx",
+    "id": 4262282,
+    "createdAt": "2019-03-14T13:09:43.506Z",
+    "updatedAt": "2019-03-14T13:09:43.506Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "kla6au3crq",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_h5oxlcgaq0e515l",
+    "id": 4262356,
+    "createdAt": "2019-03-14T13:12:20.447Z",
+    "updatedAt": "2019-03-14T13:12:20.447Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ww4lai329z",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_i0f4pj6ntdm1es2",
+    "id": 4262454,
+    "createdAt": "2019-03-14T13:16:47.146Z",
+    "updatedAt": "2019-03-14T13:16:47.146Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "fso7jgjszh",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_wl60ezzjrmm1s8w",
+    "id": 4262518,
+    "createdAt": "2019-03-14T13:19:38.914Z",
+    "updatedAt": "2019-03-14T13:19:38.914Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "sjjrukdkwa",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_3bfdd48l3rw687u",
+    "id": 4262914,
+    "createdAt": "2019-03-14T13:41:09.642Z",
+    "updatedAt": "2019-03-14T13:41:09.642Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "0wz1hzjqkz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 50,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_pqod2px0a6nnykl",
+    "id": 4262944,
+    "createdAt": "2019-03-14T13:43:19.053Z",
+    "updatedAt": "2019-03-14T13:43:19.053Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "xy1ibr7qkv",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_i3us193qdtlsdto",
+    "id": 4262948,
+    "createdAt": "2019-03-14T13:43:49.060Z",
+    "updatedAt": "2019-03-14T13:43:49.060Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "55prual7fj",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_iqdfwjk1fvgh3fs",
+    "id": 4262981,
+    "createdAt": "2019-03-14T13:45:36.055Z",
+    "updatedAt": "2019-03-14T13:45:36.055Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "s4spjepi9r",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_cgn0f5w02kotzse",
+    "id": 4263040,
+    "createdAt": "2019-03-14T13:49:13.764Z",
+    "updatedAt": "2019-03-14T13:49:13.764Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "pzyvdldwha",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_sgi392gog0wmabv",
+    "id": 4263079,
+    "createdAt": "2019-03-14T13:52:13.726Z",
+    "updatedAt": "2019-03-14T13:52:13.726Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "nt87khc84g",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_lkju5vivssgc0iv",
+    "id": 4263099,
+    "createdAt": "2019-03-14T13:53:24.054Z",
+    "updatedAt": "2019-03-14T13:53:24.054Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+===============
+
+
+
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "m2ryaekq8d",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1245419,
+    "status": "otp",
+    "transfer_code": "TRF_bxi56rf8loe0mjn",
+    "id": 4263315,
+    "createdAt": "2019-03-14T14:05:56.322Z",
+    "updatedAt": "2019-03-14T14:05:56.322Z"
+  }
+}
+
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "il2o1hija7",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_1j71ja9lhhb9v40",
+    "id": 4263436,
+    "createdAt": "2019-03-14T14:12:13.220Z",
+    "updatedAt": "2019-03-14T14:12:13.220Z"
+  }
+}
+
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+===========================
+===========================
+==========================
+
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "g6s0l6zfzy",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_rclxqrd83j7ktej",
+    "id": 4263600,
+    "createdAt": "2019-03-14T14:23:25.225Z",
+    "updatedAt": "2019-03-14T14:23:25.225Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "brzoqe5l09",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_uydzugfts4frx9d",
+    "id": 4263751,
+    "createdAt": "2019-03-14T14:33:11.681Z",
+    "updatedAt": "2019-03-14T14:33:11.681Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "y1siqm7vpt",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_2z2tjahya630yu2",
+    "id": 4263987,
+    "createdAt": "2019-03-14T14:47:41.071Z",
+    "updatedAt": "2019-03-14T14:47:41.071Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "v2vn8u6n72",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_dw22a9i28aja5bw",
+    "id": 4264019,
+    "createdAt": "2019-03-14T14:49:07.437Z",
+    "updatedAt": "2019-03-14T14:49:07.437Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "lvlqwk8xn4",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 5000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_d5gt4pdrj298gdo",
+    "id": 4264130,
+    "createdAt": "2019-03-14T14:55:20.022Z",
+    "updatedAt": "2019-03-14T14:55:20.022Z"
+  }
+}
+{
+  "status": false,
+  "message": "Request body could not be parsed. Make sure request body matches specified content-type: 'application/json'",
+  "data": {
+    "parser_message": "Unexpected token , in JSON at position 45",
+    "body": "{\"source\": \"balance\", \"reason\": \"\", \"amount\":, \"recipient\": \"\"}"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "xhojgnni8l",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 5000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_cxsl6pv6hhwfyc0",
+    "id": 4264508,
+    "createdAt": "2019-03-14T15:11:03.027Z",
+    "updatedAt": "2019-03-14T15:11:03.027Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "xgtp0uafb4",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 5000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_p48at9kdq9u98ci",
+    "id": 4264561,
+    "createdAt": "2019-03-14T15:13:56.054Z",
+    "updatedAt": "2019-03-14T15:13:56.054Z"
+  }
+}
+
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "kdr4t5dzge",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_bqyr7m9w3wu8nw1",
+    "id": 4264631,
+    "createdAt": "2019-03-14T15:17:33.860Z",
+    "updatedAt": "2019-03-14T15:17:33.860Z"
+  }
+}
+
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "e335heukj2",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_x8n9vi0gop512wa",
+    "id": 4264812,
+    "createdAt": "2019-03-14T15:27:25.100Z",
+    "updatedAt": "2019-03-14T15:27:25.100Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "y3a1bs5oyt",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_0pnpt6akfcrm7sg",
+    "id": 4280029,
+    "createdAt": "2019-03-15T07:50:01.876Z",
+    "updatedAt": "2019-03-15T07:50:01.876Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "apynt8mxnc",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_r7nlrzrl8ur0eda",
+    "id": 4280463,
+    "createdAt": "2019-03-15T07:56:13.773Z",
+    "updatedAt": "2019-03-15T07:56:13.773Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "yf7l0w91za",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "Just because",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_8dxaahth2txjb7p",
+    "id": 4280505,
+    "createdAt": "2019-03-15T07:58:17.312Z",
+    "updatedAt": "2019-03-15T07:58:17.312Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "ryoz34tkbg",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_xsbs33trher0mj4",
+    "id": 4280644,
+    "createdAt": "2019-03-15T08:05:37.409Z",
+    "updatedAt": "2019-03-15T08:05:37.409Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "2j6u68kwdr",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_gju0wyb2lkx45s5",
+    "id": 4280693,
+    "createdAt": "2019-03-15T08:07:44.065Z",
+    "updatedAt": "2019-03-15T08:07:44.065Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "irsljynej6",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_xw72g1e9v3xxze6",
+    "id": 4281613,
+    "createdAt": "2019-03-15T08:28:38.706Z",
+    "updatedAt": "2019-03-15T08:28:38.706Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "b400hj7b1p",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_ynlqbgqkhu1nu2t",
+    "id": 4281633,
+    "createdAt": "2019-03-15T08:29:14.883Z",
+    "updatedAt": "2019-03-15T08:29:14.883Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "9taudkbbtw",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_uu8xp5ieuqftci5",
+    "id": 4281747,
+    "createdAt": "2019-03-15T08:34:29.853Z",
+    "updatedAt": "2019-03-15T08:34:29.853Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "2mqt4id2g6",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_eel971s5t8aeq08",
+    "id": 4281775,
+    "createdAt": "2019-03-15T08:35:23.313Z",
+    "updatedAt": "2019-03-15T08:35:23.313Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "1u5cxongqz",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_1khrodzvu9myujw",
+    "id": 4281900,
+    "createdAt": "2019-03-15T08:40:39.581Z",
+    "updatedAt": "2019-03-15T08:40:39.581Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "7lyjfqln1w",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_rizezo7e4s08jts",
+    "id": 4289537,
+    "createdAt": "2019-03-15T14:20:43.794Z",
+    "updatedAt": "2019-03-15T14:20:43.794Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "joj6goe6x5",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 2000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "none",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_1zesfde4xiyfy73",
+    "id": 4289631,
+    "createdAt": "2019-03-15T14:24:12.319Z",
+    "updatedAt": "2019-03-15T14:24:12.319Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "7hl5h4pigc",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_1cp0fvekgzhz1ik",
+    "id": 4289674,
+    "createdAt": "2019-03-15T14:26:06.113Z",
+    "updatedAt": "2019-03-15T14:26:06.113Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "nf24hped1m",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift",
+    "recipient": 1243048,
+    "status": "otp",
+    "transfer_code": "TRF_x27zaa1bxtifoxz",
+    "id": 4289736,
+    "createdAt": "2019-03-15T14:28:43.295Z",
+    "updatedAt": "2019-03-15T14:28:43.295Z"
+  }
+}
+{
+  "status": false,
+  "message": "Transfer code is invalid"
+}

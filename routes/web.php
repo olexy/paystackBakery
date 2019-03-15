@@ -32,6 +32,13 @@ Route::post('/validate/account', [
 Route::get('/transfer', 'PagesController@transfer');
 
 // processing form to transfer
-Route::post('/recipient/transfer', [
+Route::post('/otp', [
     'uses' => 'TransfersController@transfer'
 ]);
+
+
+Route::get('/otp', 'PagesController@otp');
+
+// processing form for otp
+Route::post('/transfer/auth', 'TransfersController@otp');
+

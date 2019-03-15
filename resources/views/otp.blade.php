@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Transfer To A Recipient</title>
+<title>Validate Account Number</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -19,36 +19,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
-<?php
-?>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Transfer To A Recipient</h1>
+		<h1>Authorize Your Transfer</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-	<form action="/otp" name="trans" method="POST">
-	{{ csrf_field() }}
-	<table>
-		<tr>
-			<td> Select Transfer Recipient</td> <td><select name="recTran">
-
-				@foreach($recipients as $recipient)
-				<option value="{{$recipient->recipientCode}}"> {{$recipient->fullname}}</option>
+						<form action="/transfer/auth" name="createRe" onsubmit="return validateField()" method="POST">
+						{{ csrf_field() }}			
+			<table cellspacing=5 cellpadding=5>
+			<tr>
+				<td>Transfer Code : </td><td><input type="text" name="txt_transfercode" value="{{$arr[0]}}" readonly></td>
+			</tr>
+			<tr>
+				<td>OTP : </td><td><input type="text" name="txtotp" required></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" name="cmdBank" value="Authorize Transfer!"> </td>
+			</tr>
+			</table>	
 		
-				@endforeach
-				</select>
-			</td>
-		</tr>
-		<tr>
-			<td>Amount : </td> <td> <input type="text" name="amtTran"></td>
-		</tr>
-		<tr>
-			<td>Reason : </td> <td> <input type="text" name="reason"></td>
-		</tr>
-		<tr>
-			<td colspan=2 align=center><input type="submit" value="Transfer Now!" name="cmdtran"></td>
-		</tr>
-	</table>
 	</form>
 			</div>
 		</div>
