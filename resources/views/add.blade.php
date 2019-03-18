@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Create A New Recipientm</title>
+<title>Create A New Recipient</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -19,6 +19,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	@include('sweet::alert')
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>Create A New Recipient</h1>
@@ -28,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			{{ csrf_field() }}			
 			<table>
 			<tr>
-				<td colspan=2 align=center><a href="/validate" target="_blank">Click here to verify account name</a></td>
+				<td colspan=2 align=center><a href="/validate">Click here to verify account name</a></td>
 			</tr>
 			<tr>
 				<td>Full Name : </td> <td><input type="text" value="" name="txtname" required></td>
@@ -70,7 +72,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</table>	
 		
 	</form>
-				<p>Don't have an Account? <a href="#"> Login Now!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

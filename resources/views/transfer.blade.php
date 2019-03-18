@@ -19,6 +19,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	@include('sweet::alert')
 <?php
 ?>
 	<!-- main -->

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Transfer;
 
+use Alert;
+
 use Illuminate\Http\Request;
 
 class TransfersController extends Controller
@@ -57,6 +59,8 @@ class TransfersController extends Controller
         
                 $transfer->save();
 
+                Alert::success('Recipient Successfully Added!');
+
                 return redirect()->back();
          }    
 
@@ -95,7 +99,11 @@ class TransfersController extends Controller
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            echo "<p align=center> $account belongs to <b> $accName </b> <p/>";
+          Alert::success($accName, $account)->autoclose(3500);
+
+          return view('add');
+          // echo "<p align=center> $account belongs to <b> $accName </b> <p/>";
+            
         }
     }
 
@@ -181,7 +189,10 @@ class TransfersController extends Controller
         $ans = json_decode($response);
         $message = $ans->message;
         $transferCode = $ans->data->transfer_code;
-        echo "<span style='color:blue;font-size:1.2em;'><b>$message with code $transferCode</b></span>";
+        Alert::success($message, $transferCode)->autoclose(3500);
+
+        return view('add');
+        // echo "<span style='color:blue;font-size:1.2em;'><b>$message with code $transferCode</b></span>";
 			}
     }
 

@@ -19,12 +19,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	@include('sweet::alert')
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>Verify Account Number</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-						<form action="/validate/account" name="createRe" onsubmit="return validateField()" method="POST">
+						<form action="/validate" name="createRe" onsubmit="return validateField()" method="POST">
 						{{ csrf_field() }}			
 			<table cellspacing=5 cellpadding=5>
 			<tr>

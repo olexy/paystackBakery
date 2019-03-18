@@ -25,7 +25,7 @@ Route::post('/store/recipent', [
 Route::get('/validate', 'PagesController@check');
 
 // processing form to validate account number
-Route::post('/validate/account', [
+Route::post('/validate', [
     'uses' => 'TransfersController@checkAccount'
 ]);
 
@@ -40,5 +40,5 @@ Route::post('/otp', [
 Route::get('/otp', 'PagesController@otp');
 
 // processing form for otp
-Route::post('/transfer/auth', 'TransfersController@otp');
+Route::post('/transfer', 'TransfersController@otp');
 

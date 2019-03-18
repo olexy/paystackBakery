@@ -1796,3 +1796,106 @@
     "updatedAt": "2019-03-15T14:46:05.000Z"
   }
 }
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "i54arq5zce",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 5000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1252448,
+    "status": "otp",
+    "transfer_code": "TRF_wtoh14we2lnmjj7",
+    "id": 4360156,
+    "createdAt": "2019-03-18T13:20:23.127Z",
+    "updatedAt": "2019-03-18T13:20:23.127Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "9sgescvjo4",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 7500,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "gift card",
+    "recipient": 1252448,
+    "status": "otp",
+    "transfer_code": "TRF_s3ff747x2mrlm4b",
+    "id": 4360433,
+    "createdAt": "2019-03-18T13:32:00.359Z",
+    "updatedAt": "2019-03-18T13:32:00.359Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer has been queued",
+  "data": {
+    "domain": "test",
+    "amount": 7500,
+    "currency": "NGN",
+    "reference": "9sgescvjo4",
+    "source": "balance",
+    "source_details": null,
+    "reason": "gift card",
+    "status": "success",
+    "failures": null,
+    "transfer_code": "TRF_s3ff747x2mrlm4b",
+    "titan_code": null,
+    "transferred_at": null,
+    "id": 4360433,
+    "integration": 337150,
+    "recipient": 1252448,
+    "createdAt": "2019-03-18T13:32:00.000Z",
+    "updatedAt": "2019-03-18T13:32:24.000Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer requires OTP to continue",
+  "data": {
+    "reference": "7pnear4vs1",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1341750,
+    "status": "otp",
+    "transfer_code": "TRF_67mxp0nt441nnw9",
+    "id": 4360564,
+    "createdAt": "2019-03-18T13:37:37.261Z",
+    "updatedAt": "2019-03-18T13:37:37.261Z"
+  }
+}
+{
+  "status": true,
+  "message": "Transfer has been queued",
+  "data": {
+    "domain": "test",
+    "amount": 100,
+    "currency": "NGN",
+    "reference": "7pnear4vs1",
+    "source": "balance",
+    "source_details": null,
+    "reason": "any reason",
+    "status": "success",
+    "failures": null,
+    "transfer_code": "TRF_67mxp0nt441nnw9",
+    "titan_code": null,
+    "transferred_at": null,
+    "id": 4360564,
+    "integration": 337150,
+    "recipient": 1341750,
+    "createdAt": "2019-03-18T13:37:37.000Z",
+    "updatedAt": "2019-03-18T13:39:01.000Z"
+  }
+}
