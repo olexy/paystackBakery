@@ -1899,3 +1899,22 @@
     "updatedAt": "2019-03-18T13:39:01.000Z"
   }
 }
+{
+  "status": true,
+  "message": "Transfer has been queued",
+  "data": {
+    "reference": "ncheycxrhw",
+    "integration": 337150,
+    "domain": "test",
+    "amount": 10000,
+    "currency": "NGN",
+    "source": "balance",
+    "reason": "any reason",
+    "recipient": 1341530,
+    "status": "success",
+    "transfer_code": "TRF_3doxeloxz154m43",
+    "id": 4399957,
+    "createdAt": "2019-03-20T10:50:40.756Z",
+    "updatedAt": "2019-03-20T10:50:40.756Z"
+  }
+}

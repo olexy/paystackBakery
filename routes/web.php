@@ -39,6 +39,13 @@ Route::post('/otp', [
 
 Route::get('/otp', 'PagesController@otp');
 
+Route::get('/recipients', 'TransfersController@list');
+
 // processing form for otp
 Route::post('/transfer', 'TransfersController@otp');
+
+Route::get('/delete/recipient/{id}/{code}', [
+    'uses' => 'TransfersController@delete',
+    'as' => 'recipient.delete'
+]);
 
