@@ -49,3 +49,16 @@ Route::get('/delete/recipient/{id}/{code}', [
     'as' => 'recipient.delete'
 ]);
 
+Route::get('/update/recipient/{code}', [
+    'uses' => 'TransfersController@startUpdate',
+    'as' => 'recipient.update'
+]);
+
+// Route::get('/update', function () {
+//     return view('update');
+// });
+
+Route::get('/update/save/{code}', [
+    'uses' => 'TransfersController@saveUpdate',
+    'as' => 'recipient.save'
+]);

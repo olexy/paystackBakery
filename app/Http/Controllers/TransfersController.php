@@ -265,4 +265,26 @@ class TransfersController extends Controller
 			}
     }
 
+    public function startUpdate($code){
+      
+      $recipient = Transfer::select('fullname', 'description', 'recipientCode')->where('recipientCode', $code)->get();
+
+      //Dd($recipient);
+      return view('update')->with('recipient', $recipient);
+
+    }
+
+    public function saveUpdate(Request $request, $code){
+      
+      // dd($request->all());
+
+      $recipient = Transfer::where('recipientCode', $code)->firstOrFail();
+      //dd($recipient);      
+      $recipient->description = $request->description;
+      $recipient->save();
+      // return view('recipients');
+      return redirect('recipients');  
+
+    }
+
 }
