@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Transfer;
-
 use Alert;
+use Session;
+
 
 use Illuminate\Http\Request;
 
@@ -284,6 +285,7 @@ class TransfersController extends Controller
       $recipient->save();
       // return view('recipients'); ---- failed cos data isnt passed
       //return redirect('recipients'); or the one below
+      Session::flash('success', 'Description updated!');
       return redirect()->route('recipients');    
 
     }

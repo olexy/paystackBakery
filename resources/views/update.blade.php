@@ -9,6 +9,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+@if(Session::has('success'))
+  <div class="alert alert-success" role="alert">
+    {{ Session::get('success') }}
+  </div>
+@endif
 
 <div class="container">
   <h2>Update Recipient Information</h2>

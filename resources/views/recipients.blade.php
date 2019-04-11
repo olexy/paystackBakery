@@ -15,6 +15,11 @@
 
 </head>
 <body>
+@if(Session::has('success'))
+  <div class="alert alert-success" role="alert">
+    {{ Session::get('success') }}
+  </div>
+@endif
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	@include('sweet::alert')
 <ul class="list-group">
