@@ -39,7 +39,10 @@ Route::post('/otp', [
 
 Route::get('/otp', 'PagesController@otp');
 
-Route::get('/recipients', 'TransfersController@list');
+Route::get('/recipients', [
+    'uses' => 'TransfersController@list',
+    'as' => 'recipients'
+]);
 
 // processing form for otp
 Route::post('/transfer', 'TransfersController@otp');

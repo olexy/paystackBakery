@@ -282,8 +282,9 @@ class TransfersController extends Controller
       //dd($recipient);      
       $recipient->description = $request->description;
       $recipient->save();
-      // return view('recipients');
-      return redirect('recipients');  
+      // return view('recipients'); ---- failed cos data isnt passed
+      //return redirect('recipients'); or the one below
+      return redirect()->route('recipients');    
 
     }
 
